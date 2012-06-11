@@ -1,0 +1,64 @@
+/* commented backslash hack \*/ 
+html, body{height:100%;} 
+/* end hack */
+html,body {margin:0;padding:0}
+
+#cuerpo{
+	min-height:100%;
+	height:auto;
+}
+
+* html #cuerpo{
+	height:100%; /* ie6 and under*/
+}
+
+#cuerpo {
+	background: #1F2024;
+	float: left;
+	width: 117px;
+
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#der {
+	float: left;
+	margin: 20px;
+	width: 500px;
+}
+
+#cuerpo a {
+	background: url('../images/logo-v.png') no-repeat;
+	display: block;
+	width: 77px;
+	height: 395px;
+	margin: 20px;
+	text-indent: -9999px;
+}
+
+#der h1 {
+	border-bottom: 5px solid #329ECF;
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:-1px;
+	margin-bottom:10px;
+	padding-bottom: 5px;
+}
+
+#der p {
+	font-size:14px;
+	line-height:1.5;
+	margin-bottom:20px;
+}
+
+#der li {
+	font-size:14px;
+	line-height:1.5;
+	list-style: outside;
+	margin-left: 30px;
+}
+
+#der ul, #der form {
+	margin-bottom:20px;
+}

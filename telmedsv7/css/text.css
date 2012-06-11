@@ -1,0 +1,5 @@
+body{font:13px/1.5 Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;}hr{border:0 #ccc solid;border-top-width:1px;clear:both;height:0;}h1{font-size:25px;}h2{font-size:23px;}h3{font-size:21px;}h4{font-size:19px;}h5{font-size:17px;}h6{font-size:15px;}ol{list-style:decimal;}li{margin-left:30px;}p,dl,hr,h1,h2,h3,h4,h5,h6,ol,ul,pre,table,address,fieldset{margin-bottom:20px;}a{border:0;outline:0;}img{border:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}:focus{outline:0;}ins{text-decoration:none;}del{text-decoration:line-through;}table{border-collapse:collapse;border-spacing:0;}sub{vertical-align:sub;}sup{vertical-align:super;}.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0;}.clearfix:after{clear:both;content:'.';display:block;visibility:hidden;height:0;}.clearfix{display:inline-block;}* html .clearfix{height:1%;}.clearfix{display:block;}
+
+#singletext ul {list-style-type: disk;}
+#singletext ul ul {list-style-type: circle;}
+#singletext ul ul ul {list-style-type: square;}

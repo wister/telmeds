@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <script type="text/javascript" src="http://www.telmeds.net/wp-content/themes/telmedsv7/js/jquery.js"></script>
+    <script src="http://www.telmeds.net/wp-content/themes/telmedsv7/js/tic.js"></script>
+    <link rel="stylesheet" href="http://www.telmeds.net/wp-content/themes/telmedsv7/js/toe.css" type="text/css" />
+  </head> 
+  <body>
+    <form id="board" name="board">
+      <table class="board" align="left" cellspacing="6">
+        <tbody>
+          <tr>
+           <td class="cell"><input value="X" class="cell" name="c7" accesskey="7" type="button"></td>
+           <td class="cell"><input value="O" class="cell" name="c8" accesskey="8" type="button"></td>
+           <td class="cell"><input value="O" class="cell" name="c9" accesskey="9" type="button"></td>
+          </tr>
+          <tr>
+           <td class="cell"><input value="O" class="cell" name="c4" accesskey="4" type="button"></td>
+           <td class="cell"><input value="X" class="cell" name="c5" accesskey="5" type="button"></td>
+           <td class="cell"><input value="X" class="cell" name="c6" accesskey="6" type="button"></td>
+          </tr>
+          <tr>
+           <td class="cell"><input value="X" class="cell" name="c1" accesskey="1" type="button"></td>
+           <td class="cell"><input value="X" class="cell" name="c2" accesskey="2" type="button"></td>
+           <td class="cell"><input value="O" class="cell" name="c3" accesskey="3" type="button"></td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <h1>Los aliens vs usted</h1>
+      <table border="1" cellpadding="3">
+        <tbody>
+          <tr>
+            <th>Jugador</th>
+            <th>Primero</th>
+            <th>Tipo</th>
+            <th>Ganadas</th>
+            <th>Record</th>
+          </tr>
+          <tr>
+            <th class="player">X</th>
+            <td><input name="firstMove" value="X" checked="checked" class="reset" type="radio"></td>
+            <td><select name="p1" class="reset">
+            <option value="1" selected="selected">Humano
+            </option><option value="2">Novato
+            </option><option value="3">Intermedio
+            </option><option value="4">Experimentado
+            </option><option value="5">Experto
+            </option></select></td>
+            <td align="right"><input name="xWon" class="winstat" value="0" type="button"></td>
+            <td align="right"><input name="xWonPer" class="winstat" value="0%" type="button"></td>
+          </tr>
+          <tr>
+            <th class="player">O</th>
+            <td><input name="firstMove" value="O" class="reset" type="radio"></td>
+            <td><select name="p2" class="reset">
+            <option value="1">Humano
+            </option><option value="2">Novato
+            </option><option value="3">Intermedio
+            </option><option value="4">Experimentado
+            </option><option value="5" selected="selected">Experto
+            </option></select></td>
+            <td align="right"><input name="oWon" class="winstat" value="0" type="button"></td>
+            <td align="right"><input name="oWonPer" class="winstat" value="0%" type="button"></td>
+          </tr>
+          <tr>
+            <th>Empates</th>
+            <td></td>
+            <td></td>
+            <td align="right"><input name="catsGame" class="winstat" value="1" type="button"></td>
+            <td align="right"><input name="catsGamePer" class="winstat" value="100%" type="button"></td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <input name="newgame" value="Clear Stats" accesskey="c" id="clear" type="button">
+      <input name="newgame" value="New Game" accesskey="n" class="reset" type="button">
+      </p>
+    </form>
+  </body>
+</html>

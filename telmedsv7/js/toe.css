@@ -1,0 +1,29 @@
+.cell {
+ background-color:green;
+ color:white;
+ font-size:2cm;
+ font-weight:bold;
+}
+input.cell {
+ border:none;
+ width:2cm;
+ vertical-align:bottom;
+}
+td.cell {
+ border:thick green outset;
+}
+.board {
+ border:thin black ridge;
+ background-color:green;
+ margin-right:1cm;
+}
+.winstat {
+ color:black;
+ background-color:white;
+ border:none;
+}
+.player {
+ font-family:Courier New,Courier,monospaced;
+ font-weight:bold;
+ font-size:150%;
+}

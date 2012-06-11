@@ -1,0 +1,21 @@
+/* IE 7 y 6 css */
+
+#rotativo, #reto, #eventos, #patrocinio, #svp, #tls, #caps {
+	border: 1px solid #ababab;
+}
+
+#cabeza h1 { 
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/logo.png', sizingMethod='crop'); 
+}
+
+#cabeza h1 a { 
+	position: relative; 
+	z-index: 1; 
+}
+
+#rotativo li, #singletxt li, #singletxt2 li, #caps li {
+	display: inline;
+}
+
+behavior: url(http://fetchak.com/ie-css3/ie-css3.htc);

@@ -1,0 +1,1137 @@
+/* Estructura base de Telmeds.org */
+#singletext ul {list-style-type: disk;}
+#singletext ul ul {list-style-type: circle;}
+#singletext ul ul ul {list-style-type: square;}
+
+#Salas {
+	margin: 1px 10px 0;
+	overflow: hidden;
+	height: 186px;
+	width: 286px;
+	padding: 2px;
+}
+
+#Vs div {
+	float: left;
+	display: inline;
+	margin-right: 10px;
+}
+
+#Vs {
+	position: relative;
+	left: -152px;
+	top: -2px;
+}
+
+#svp p {
+	text-align: right;
+}
+
+#LPM {
+	margin: 20px 10px 0;
+	overflow: hidden;
+	height: 191px;
+	width: 291px;
+}
+
+#LPMM {
+	position: relative;
+	left: 0px;
+}
+
+.paging {
+	position: relative;
+	top: -55px; 
+	z-index: 100; /*--Assures the paging stays on the top layer--*/
+	text-align: right;
+	//background: url(paging_bg2.png) no-repeat;
+	display: none; /*--Hidden by default, will be later shown with jQuery--*/
+}
+.paging a {
+	padding: 5px;
+	text-decoration: none;
+	color: #fff;
+}
+.paging a.active {
+	font-weight: bold; 
+	background: #166094; 
+	border: 1px solid #06568e;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.paging a:hover {
+	font-weight: bold;
+}
+
+#LPMM img {
+	padding: 2px 0 0 0;
+	display: inline;
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+#telmeds {
+	background: white;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 960px;
+	overflow: hidden;
+}
+
+/* home */
+
+#main, #sidebar {
+	float: left;
+	margin: 20px 10px 0;
+}
+
+#librosp {
+	float: left;
+	margin: 0px 10px 0;
+}
+
+#main {
+	width: 620px;
+}
+
+#sidebar {
+	width: 300px;
+}
+
+#librosp {
+	width: 935px;
+}
+
+.minipor {
+	float: left;
+}
+
+.minipor img {
+	border:1px solid #DDDDDD;
+	height:100px;
+	margin-right:5px;
+	padding:1px;
+	width:100px;
+}
+
+.miniart h2, h2.adicional {
+	font-size:15px !important;
+	text-align:left !important;
+}
+
+.articulospor {
+	margin:12px 0px 10px;
+}
+
+.miniart {
+	float: left;
+	height: 231px;
+	margin: 0 10px;
+	width: 290px;
+}
+
+.miniart ol li {
+	list-style: decimal;
+}
+
+/* head */
+
+#cabeza {
+	background: #1f2024;
+	border-bottom: 1px solid #ffffff;
+}
+
+#cabeza .wrapper {
+	background: url('../images/header.jpg') no-repeat;
+	height: 100px;
+}
+
+#cabeza h1 {
+	background: url('../images/logo.png') no-repeat;
+	float: left;
+	height: 77px;
+	margin: 11px 0 12px;
+	text-indent: -9999px;
+	overflow: hidden;
+	width: 395px;
+}
+
+#cabeza h1 a {
+	display: block;
+	height: 77px;
+	width: 395px;
+}
+
+.login {
+	float: left;
+	overflow: hidden;
+}
+
+#cabeza form {
+	background: #ffffff;
+	float:left;
+	font-size: 8px;
+	height:23px;
+	margin:25px 0px 10px 265px;
+	overflow:hidden;
+	width:300px;
+-khtml-border-radius: 3px;
+-moz-border-radius: 3px;
+-ms-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+}
+
+#cabeza input {
+	border: 0;
+	/*border: 1px solid #e1e1e1;
+	padding: 3px;*/
+}
+
+#cabeza #s {
+	height: 15px;
+	margin:3px;
+	width:232px;
+}
+
+#cabeza #searchsubmit {
+	background: url("../images/nav.jpg") repeat scroll 0 0 white;
+	border: 1px solid #e1e1e1;
+	width: 59px;
+}
+
+/* main */
+
+#cuerpo {
+	background: #ffffff;
+	border-bottom: #e1e1e1 1px solid;
+	border-top: #e1e1e1 1px solid;
+}
+
+#rotativo, .widget, #singletext, #retomain {
+	margin-bottom: 20px;
+
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#singletext, #retomain {
+	margin: 20px 10px;
+}
+
+#rotativo ul, ul#singletxt, ul#singletxt2 {
+	border-bottom: 5px solid #329ecf;
+	overflow: hidden;
+}
+
+#rotativo li, #rotativo ul, ul#singletxt , #singletxt li, #singletxt2 li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#rotativo li, #singletxt li, #singletxt2 li {
+	display: inline-block;
+	font-size: 14px;
+	height: 15px;
+	padding: 10px 10px;
+}
+
+#rotativo ul a, ul#singletxt a, ul#singletxt2 a, #caps ul a {
+	color: #000000;
+	font-weight: bold;
+	letter-spacing: -1px;
+	text-decoration: none;
+
+	text-shadow: 0.1em 0.1em 0.2em #ffffff;
+}
+
+#rotativo li:hover, .ui-tabs-selected, #singletxt li:hover, #singletxt2 li:hover, #singletxt li.current {
+	background: #329ecf url('../images/navrot.png') repeat-x;
+}
+
+#librosp ul {
+	margin: 0;
+	padding: 0; 
+	list-style-type: none; 
+	list-style-image: none; 
+}
+	
+#librosp li {
+	display: inline;
+	margin-right: 19px;
+}
+
+.archivoboton {
+	-khtml-border-radius: 15px 15px 15px 15px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-ms-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+	background:url("http://www.telmeds.net/wp-admin/images/button-grad.png") repeat-x scroll left top #21759B;
+	border-color:#298CBA;
+	color:#FFFFFF;
+	display:inline-block;
+	font-weight:bold;
+	margin:15px 0 0 60px;
+	padding:5px 20px;
+	text-shadow:0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.tabdiv {
+	background: #ffffff url('../images/borde.png') top repeat-x;
+	height: 243px;
+	overflow: hidden;
+}
+
+.ui-tabs-hide {
+	display: none;
+}
+
+.info, .shot {
+	float: left;
+	width: 295px;
+}
+
+.info {
+	height:222px;
+	margin: 12px 10px 10px 5px;
+}
+
+#item-2 .info {
+	background:url("../images/ims.png") no-repeat right bottom transparent;
+}
+
+#item-3 .info {
+	background:url("../images/vms.png") no-repeat right bottom transparent;
+}
+
+.shot {
+	margin:12px 5px 10px 10px;
+}
+
+#item-1 {
+	margin:0;
+	padding:0;
+}
+
+.info p, .perla {
+	line-height: 1.3;
+}
+
+.tabdiv h2, .colabdiv h2 {
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:-1px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.tabdiv h2 a {
+	color:black;
+	text-decoration:none;
+}
+
+#widgetareal, #widgetaread {
+	float: left;
+	width: 300px;
+}
+
+#widgetareal, .ip-info {
+	margin-right: 10px;
+}
+
+#widgetaread, .ip-poster {
+	margin-left: 10px;
+}
+
+.articulos {
+	margin: 12px 10px 10px;
+}
+
+#listaarticulos, #listaarticulos li {
+	border: none;
+	display: block;
+}
+
+ul#listaarticulos {
+	border: none;
+}
+
+#caps {
+	height: 402px !important;
+	overflow: auto;
+}
+
+#caps p, #rotativo #item-2 p, #rotativo #item-3 p, #rotativo #item-4 p, #rotativo #item-5 p, #rotativo #item-7 p, #rotativo #item-6 p  {
+	font-size: 14px;
+	line-height: 1.3;
+}
+
+#rotativo #item-4 h2, #rotativo #item-5 h2, #rotativo #item-7 h2, #rotativo #item-6 h2 {
+	text-align: center !important;
+}
+
+p.autorescap {
+	color:#ABABAB;
+	font-style:italic;
+	margin-bottom:10px;
+	text-align:center;
+}
+
+#rotativo #item-4 p.autorescap, #rotativo #item-5 p.autorescap, #rotativo #item-7 p.autorescap, #rotativo #item-6 p.autorescap {
+	font-size: 12px;
+}
+
+#rotativo li.adicional {
+	background: none;
+	display: block;
+	height: auto;
+}
+
+#rotativo li.adicional a {
+	color: black;
+}
+
+#caps ul  {
+	border-bottom: 5px solid #007D00;
+}
+
+#caps li {
+	display:inline-block;
+	font-size:14px;
+	height:15px;
+	padding-top:12px;
+	padding-bottom:12px;
+	padding-left:6px;
+	padding-right:6px;
+}
+
+#caps li:hover, #caps .ui-tabs-selected {
+	background: #007D00 url('../images/green.png') repeat-x;
+}
+
+#caps .tabdiv {
+	height: 330px;
+	padding: 10px;
+}
+
+#cap-1 p {
+	line-height: 1.3;
+}
+
+#cap-2 .perlita {
+	background:url('../images/comilla-abre.gif') no-repeat scroll 0 0 transparent;
+	font-size:14px;
+	font-style:italic;
+	line-height:1.3;
+	margin-bottom:20px;
+	padding-left:50px;
+}
+
+#cap-2 p.perlac {
+	font-size:13px;
+	font-style:normal;
+	font-weight:bold;
+	letter-spacing:-1px;
+	margin-top:10px;
+	text-align:center;
+}
+
+#caps #cap-3 {
+	height:151px;
+	padding: 0;
+}
+
+/* single */
+
+.derecho {
+	float:right;
+	margin:0 !important;
+	padding:7px;
+}
+
+.derecho:hover {
+	background: #feb745 url("../images/nav2.jpg") repeat-x;
+}
+
+#singletext .autores, #singletext .cargos {
+	font-style: italic;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+#singletext .tabdiv {
+	height: auto;
+	padding: 20px;
+}
+
+#singletext h1 {
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:-1px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#singletext h2 {
+	text-align: left;
+}
+
+#singletext p, #singletext #item-1 ul, #singletext #item-1 ol {
+	font-size: 14px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+#singletext #item-1 li {
+	margin-left: 40px;
+}
+
+#singletext #item-1 ul {
+	list-style: disc;
+}
+
+#singletext #item-1 ol {
+	list-style: decimal;
+}
+
+#singletext .wp-caption {
+	border: 1px solid #e1e1e1;
+	padding: 5px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+#singletext #item-2 {
+	padding: 10px;
+}
+
+#singletext #item-2 img {
+	margin: 0 auto;
+}
+
+#singletext .wp-caption-text, #singletext .wp-caption img {
+	float: left;
+}
+
+#singletext .wp-caption-text {
+	font-style:italic;
+	margin:10px;
+}
+
+#item-3 .citacion {
+	border-left: 5px solid #e1e1e1;
+	padding-left: 20px;
+}
+
+.ims, .wordtube object {
+	display:block;
+	margin:0 auto 20px;
+}
+
+/* sidebar y widgets con imagenes */
+
+#reto, #eventos, #tls, #svp, #patrocinio, #librosp {
+	padding: 2px;
+}
+
+#reto p, #patrocinio p {
+	background: url('../images/red.png');
+}
+
+#eventos p {
+	background: url('../images/green.png');
+}
+
+#tls p {
+	background: url('../images/yellow.png');
+}
+
+#svp p {
+	background: url('../images/morado.png');
+}
+
+#librosp p, #LPM p {
+	background: url('../images/azul.png');
+}
+
+.perla, .perlaautor {
+	margin: 10px;
+}
+
+.perlaautor {
+	font-style:italic;
+	text-align: center;
+}
+
+#reto p, #eventos p, #tls p, #svp p, #patrocinio p, #librosp p, #LPM p {
+	color: #ffffff;
+	font-weight: bold;
+	height: 23px;
+	letter-spacing: -1px;
+	padding: 7px 14px 0 7px;
+	text-decoration: none;
+
+	text-shadow: 0.1em 0.1em 0.2em #000000;
+}
+
+#reto p a, #eventos p a, #tls p a, #svp p a, #patrocinio p a, #librosp p a, #LPM p a  {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* foot */
+
+#pie {
+	background: url('../images/rayas.gif');
+	border-top: 1px solid #ffffff;
+	line-height: 1.2;
+	overflow: hidden;
+}
+
+#pie, #pie a {
+	color: #ffffff;
+}
+
+#pie .aviso {
+	float: left;
+	font-size: 11px;
+	margin: 20px 10px;
+	text-align: justify;
+	width: 797px;
+}
+
+#pie .powered img {
+	margin: 10px;
+}
+
+.powered {
+	float: left;
+	width: 143px;
+}
+
+/* eventos */
+
+.ip-poster, .ip-info {
+	float: left;
+	margin-top: 10px;
+	width: 440px;
+}
+
+#map_canvas {
+	background: #e1e1e1;
+	height: 450px;
+	width: 900px;
+}
+
+#mapa.ui-tabs-hide { /* fix para el mapa */
+	display: block;
+	position: absolute;
+	top: -999em;
+	left: -999em;
+}
+
+small.cal {
+	background:none repeat scroll 0 0 white;
+	color:black;
+	display:block;
+	float:left;
+	font-size:13px;
+	line-height:1.5;
+	margin-right:20px;
+	width:45px;
+}
+
+strong.dia {
+	display:block;
+	text-align:center;
+}
+
+strong.mes {
+	display:block;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+strong.ano {
+	background:none repeat scroll 0 0 Teal;
+	color:white;
+	display:block;
+	text-align:center;
+}
+
+.eventos-main .cal {
+	border:1px solid gray;
+}
+
+.eventos-main {
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.expirado h3 a {
+	color: #a9a9a9;
+}
+
+.prox h3 a {
+	color: black;
+}
+
+/* comentarios */
+
+.commentlist {
+	margin: 20px 0;
+}
+
+.comment {
+	overflow: hidden;
+}
+
+/* colaboradores */
+
+.colab {
+	float: left;
+	height: 140px;
+	margin: 10px 10px;
+	width: 440px;
+}
+
+.colab img, .colabfull img {
+	border: 1px solid #e1e1e1;
+	margin: 2px;
+	padding: 2px;
+	float: left;
+}
+
+.colabcontent {
+	float: left;
+	margin-left: 5px;
+	width: 300px;
+}
+
+.colabcontentfull {
+	float: left;
+	margin-left: 10px !important;
+	width: 760px;
+}
+
+.colabcontent h3 {
+	font-size:14px;
+	font-weight:bold;
+	letter-spacing:-1px;
+	margin-bottom:10px;
+}
+
+.colabdiv {
+	background: #ffffff url('../images/borde.png') top repeat-x;
+	padding: 20px 10px;
+}
+
+.colabdiv h2 {
+	margin-left: 10px;
+}
+
+/* atlas */
+
+#atlas {
+	line-height: 0;
+}
+
+#singletext .thin li {
+	margin-left: 20px !important;
+}
+
+#singletext .thin a {
+	color: black;
+}
+
+.iatlas {
+	margin-bottom: 2px;
+}
+
+.atlasref {
+	padding: 20px;
+}
+
+.atlasref p {
+	margin: 0 !important;
+}
+
+/* nav */
+div.wp-pagenavi {
+	text-align:center;
+	font-size:13px;
+	padding:10px 0;
+	overflow:hidden;
+	background: #ffffff url('../images/borde.png') top repeat-x;
+}
+div.wp-pagenavi a, div.wp-pagenavi span.pages, div.wp-pagenavi span.current {
+	padding:2px 6px;
+	margin: 2px;
+	display:inline-block;
+	color:#0063dc;
+}
+div.wp-pagenavi a, div.wp-pagenavi a:link, div.wp-pagenavi a:visited, div.wp-pagenavi a:active {
+	border-color:#DDD;
+	color:#0063dc;
+}
+div.wp-pagenavi a:hover {
+	border-color:#036;
+	background-color:#0063dc;
+	color:#FFF;
+}
+div.wp-pagenavi span.current {
+	font-weight: bold;
+	border:none;
+	color:#ff0084;
+}
+
+/* capsulas y perlas */
+
+#capsulas .colabcontent {
+	width: 765px;
+}
+
+#capsulas .colab {
+	height: auto;
+	width: auto;
+}
+
+/* nav menu */
+
+#nav {
+float: right;
+list-style: none;
+margin: 15px 0 0;
+}
+
+ul#nav {
+padding: 0;
+}
+
+#nav li {
+background: white url(../images/nav.jpg);
+float: left;
+font-weight: bold;
+height: 20px;
+margin-left: 5px;
+padding: 7px 10px;
+-khtml-border-radius: 3px 3px 0 0;
+-moz-border-radius: 3px 3px 0 0;
+-ms-border-radius: 3px 3px 0 0;
+-webkit-border-radius: 3px 3px 0 0;
+border-radius: 3px 3px 0 0;
+behavior: url(ie-css3.htc);
+}
+
+#nav li span {
+cursor: pointer;
+}
+
+#nav li a {
+color: black;
+text-decoration: none;
+}
+
+#nav li a:hover {
+}
+
+li.resalto {
+background: yellow url(../images/nav3.jpg) !important; /* necesario para sobreescribir lo que puse en el id */
+}
+
+ul#nav li ul {
+border: 1px solid #ccc;
+background: white;
+color: black;
+display: none;
+list-style: none;
+margin-left: -11px;
+padding: 10px 0 0 0;
+position: absolute;
+top: 100px;
+width: 150px;
+}
+
+ul#nav li ul li {
+background: white;
+width: 120px;
+}
+
+ul#nav li ul li:hover {
+background: gray;
+color: white;
+-khtml-border-radius: 3px;
+-moz-border-radius: 3px;
+-ms-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+}
+
+li#residencias {
+background: #57aaf7 url(../images/nav4.jpg);
+color: black;
+}
+
+li#foros {
+background: yellow url(../images/nav2.jpg);
+color: black;
+}
+
+/* comentarios */
+
+#comments li {
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.comment-text, .comment-meta {
+	float:left;
+}
+
+.comment-meta {
+	border-top: 1px solid #DDDDDD;
+	padding:10px;
+	width:205px;
+}
+
+.comment-meta img {
+	float: left;
+	margin-right: 5px;
+}
+
+.comment-meta small, .comment-text small {
+	font-size: 11px;
+}
+
+.comment-text {
+	background: #F8F8F8;
+	border:1px solid #DDDDDD;
+	padding:10px;
+	width:653px;
+}
+
+/* bp */
+
+#item-header {
+	margin:20px;
+	overflow: hidden;
+}
+
+#item-header-avatar {
+	float: left;
+	width:
+}
+
+#item-header-avatar img {
+	border: 1px solid #dddddd;
+	padding: 2px;
+}
+
+#item-header-content {
+	float: left;
+	width:
+}
+
+/* svp y e */
+
+#svparchive a {
+	color:#329ECF;
+	font-size:13px;
+	font-weight:bold;
+}
+
+#svparchive a:visited {
+	color: #008080;
+}
+
+ul#materias li, #singlesve img {
+	float: left;
+	margin:0 5px 5px;
+}
+
+.rating {
+	color: orange;
+}
+
+.empty {
+	color: #dddddd;
+}
+
+#protegido .diapo {
+	border: 1px solid #dddddd;
+	float: left;
+	margin: 20px 20px 0 0;
+	padding: 1px;
+}
+
+#protegido .linkp, #protegido form {
+	margin-top: 20px;
+}
+
+#singlesve {
+	float:left;
+	margin:0 20px 0 0;
+	width:600px;
+}
+
+a.descarga {
+	background: url(../images/descargah.png);
+	color: transparent;
+	display: inline-block;
+	height: 55px;
+	width: 259px;
+}
+
+a.descarga:hover {
+	background: url(../images/descarga.png);
+}
+
+img.protegido {
+	border: none;
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+
+#svparchive .colab:hover small {
+	background:SpringGreen;
+	padding:2px;
+}
+
+/* paciente virtual */
+
+.crunch {
+	background:none repeat scroll 0 0 lightBlue;
+	border:1px solid blue;
+	margin:0 0 20px;
+	padding:5px;
+}
+
+.crunch img {
+	float:left;
+	margin-right:5px;
+}
+
+#paciente .colab {
+	float: left;
+	height: auto;
+	margin: 0;
+	width: 900px;
+}
+
+#paciente .colabcontent {
+	width: 440px;
+}
+
+#pacientenum {
+	-moz-border-radius:15px 15px 15px 15px;
+	background:-moz-linear-gradient(center top , #93C85E 30%, #55A802 55%) repeat scroll 0 0 transparent;
+	border:1px solid #3A7404;
+	color:white;
+	display:inline-block;
+	font-weight:bold;
+	margin-bottom:15px;
+	text-shadow:0 -1px 0 #3A7404;
+}
+
+#pacientenum b, #pacientenum span {
+	display: inline-block;
+	padding: 5px;
+}
+
+#pacientenum a, .medalla a {
+	color: white;
+	text-decoration: none;
+}
+
+.medalla {
+/*	background:#329ECF;*/
+	background:-moz-linear-gradient(center top , #93C85E 30%, #55A802 55%) repeat scroll 0 0 transparent;
+	border:1px solid #3A7404;
+	display: inline-block;
+	margin-bottom: 15px;
+	-moz-border-radius:22px;
+}
+
+.medalla img {
+	border: none;
+}
+
+.medalla span {
+	color:white;
+font-weight:bold;
+margin:0 8px 0 5px;
+padding:5px;
+position:relative;
+text-shadow:0 -1px 0 #3A7404;
+top:13px;
+}
+
+#ganador img {
+float:left;
+margin:2px;
+padding:2px;
+}
+
+#ganador .medalla {
+	margin-bottom: 0;
+}
+
+.pacientecontent, .pacientesidebar {
+	float: left;
+}
+
+.pacientecontent {
+	width: 600px;
+}
+
+.pacientesidebar {
+	width: 300px;
+}
+
+/* reto */
+
+.wp-polls-ul i {
+	color: red;
+}
+
+/* buscar */
+
+.enlace {
+	color: #0E774A;
+}
+
+#busqueda a {
+	color: #1111CC;
+	font-size: 14px;
+}
+
+#busqueda a:visited {
+	color: #551A8B;
+}
+
+#busqueda {
+	font-size: 13px;
+	line-height: 1.2;
+}
