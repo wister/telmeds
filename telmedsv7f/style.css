@@ -1,0 +1,141 @@
+/*
+Theme Name: Telmedsv7
+Theme URI: http://www.telmeds.org/
+Description: 
+Version: 1.0
+Author: <a href="http://www.telmeds.org">Moisés Serrano</a>.
+Author URI: 
+*/
+
+#foro {
+	background:none repeat scroll 0 0 #FFFFFF;
+	border-bottom:1px solid #E1E1E1;
+	border-top:1px solid #E1E1E1;
+}
+
+#foro #singletext {
+	margin-bottom: 3px;
+}
+
+#foro #latest, #foro #forumlist {
+	font-size: 14px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+#foro #latest tr, #foro #forumlist tr  {
+
+}
+
+#forumlist a, #latest a {
+	color: #0063DC;
+}
+
+#forumlist .new-topic, #latest .new-topic {
+	color:#FF0084;
+}
+
+#forumlist .num, #latest .num {
+	text-align: center;
+}
+
+#forumlist .bb-child. #latest .bb-child {
+}
+
+#forumlist .nest, #latest .nest {
+	margin-left:30px;
+}
+
+.threadauthor, .threadpost {
+	float: left;
+}
+
+.threadauthor {
+	text-align: center;
+	width: 150px;
+}
+
+.threadauthor img {
+	border:1px solid gray;
+	padding:1px;
+}
+
+.threadpost {
+	width: 750px;
+}
+
+.threadpost small {
+	font-size: 11px;
+}
+
+.threadpost .poststuff {
+	border-top:1px dotted #CCCCCC;
+	padding: 5px;
+}
+
+.threadpost .post {
+	padding: 20px;
+}
+
+.alt .post {
+
+}
+
+#comments-form .comment-text {
+	width: auto;
+}
+
+#comments-form textarea {
+	width: 870px;
+}
+
+#forumlist tr, #latest tr {
+	border:1px solid #EBEBEB;
+}
+
+#forumlist td, #forumlist th, #latest td, #latest th {
+	padding: 6px;
+}
+
+#forumlist .alt, #latest .alt {
+	background: #f8f8f8;
+}
+
+#forumlist .nest, #latest .nest {
+	margin-bottom: 10px;
+}
+
+#forumlist .indic, #latest .indic {
+	background: #f8f8f8;
+}
+
+#forumlist th .nest, #latest th .nest {
+	margin-top: 10px;
+}
+
+.entrada {
+	margin-bottom: 20px;
+}
+
+#singletext #new {
+	padding: 0;
+}
+
+#new .miembros {
+	padding: 0 20px;
+}
+
+#cabeza #q {
+	height: 15px;
+	margin:3px;
+	width:232px;
+}
+
+#forumlist a.page-numbers, #latest a.page-numbers {
+	color:#FF0084;
+	padding-right:4px;
+}
+
+h2.post-form {
+	display: none;
+}
