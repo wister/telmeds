@@ -179,12 +179,12 @@ padding-right: 3px;
 				<div id="widgetareal">
 					<div id="caps" class="widget">
 						<ul>
-<!--<li class="cia"><a href="#cap-5"><img style="height: 12px;" src="http://www.telmeds.org/wp-content/themes/telmedsv7/images/fav.png"/></a></li>-->
+<!--<li class="cia"><a href="#cap-4"><img style="height: 12px;" src="http://www.telmeds.org/wp-content/themes/telmedsv7/images/fav.png"/></a></li>-->
 							<li class="cia"><a href="#cap-1">Cápsulas Médicas</a></li>
 							<li class="cia"><a href="#cap-2">Perlas Clínicas</a></li>
-                                                        <li class="cia"><a href="#cap-4">Libros</a></li>
+                                                        <li class="cia"><a href="#cap-3">Libros</a></li>
 						</ul>
-<!--<div id="cap-5" class="tabdiv"><h2><a href="http://www.telmeds.org/eventos/ix-curso-intensivo-de-anatomia/">IX Curso Intensivo de Anatomía</a></h2><a href="http://www.telmeds.org/eventos/ix-curso-intensivo-de-anatomia/"><img src="http://www.telmeds.org/wp-content/themes/telmedsv7/images/cia/cia2012-310.jpg" alt="IX Curso Intensivo de Anatomía" style="margin: 0pt auto; display: block;" /></a></div>-->
+<!--<div id="cap-4" class="tabdiv"><h2><a href="http://www.telmeds.org/eventos/ix-curso-intensivo-de-anatomia/">IX Curso Intensivo de Anatomía</a></h2><a href="http://www.telmeds.org/eventos/ix-curso-intensivo-de-anatomia/"><img src="http://www.telmeds.org/wp-content/themes/telmedsv7/images/cia/cia2012-310.jpg" alt="IX Curso Intensivo de Anatomía" style="margin: 0pt auto; display: block;" /></a></div>-->
 
 
 	<div id="cap-1" class="tabdiv">
@@ -212,7 +212,7 @@ padding-right: 3px;
 <?php endwhile; ?>
 						</div>
 
-<div id="cap-4" class="tabdiv">
+<div id="cap-3" class="tabdiv">
 <?php //$wp_query = new WP_Query( array ( 'post_type' => 'libro', 'orderby' => 'rand', 'posts_per_page' => '1' ) ); ?>
 <?php $wp_query = new WP_Query( array ( 'post_type' => 'libro', 'id' => '10069', 'posts_per_page' => '1' ) ); ?>
 <?php while ($wp_query->have_posts()) : $wp_query->the_post(); $do_not_duplicate = $post->ID; ?>

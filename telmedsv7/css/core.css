@@ -3,40 +3,9 @@
 #singletext ul ul {list-style-type: circle;}
 #singletext ul ul ul {list-style-type: square;}
 
-#Salas {
-	margin: 1px 10px 0;
-	overflow: hidden;
-	height: 186px;
-	width: 286px;
-	padding: 2px;
-}
-
-#Vs div {
-	float: left;
-	display: inline;
-	margin-right: 10px;
-}
-
-#Vs {
-	position: relative;
-	left: -152px;
-	top: -2px;
-}
 
 #svp p {
 	text-align: right;
-}
-
-#LPM {
-	margin: 20px 10px 0;
-	overflow: hidden;
-	height: 191px;
-	width: 291px;
-}
-
-#LPMM {
-	position: relative;
-	left: 0px;
 }
 
 .paging {
@@ -62,11 +31,6 @@
 }
 .paging a:hover {
 	font-weight: bold;
-}
-
-#LPMM img {
-	padding: 2px 0 0 0;
-	display: inline;
 }
 
 .aligncenter {
@@ -114,10 +78,6 @@
 
 #sidebar {
 	width: 300px;
-}
-
-#librosp {
-	width: 935px;
 }
 
 .minipor {
@@ -571,10 +531,6 @@ p.autorescap {
 	background: url('../images/morado.png');
 }
 
-#librosp p, #LPM p {
-	background: url('../images/azul.png');
-}
-
 .perla, .perlaautor {
 	margin: 10px;
 }
@@ -595,7 +551,7 @@ p.autorescap {
 	text-shadow: 0.1em 0.1em 0.2em #000000;
 }
 
-#reto p a, #eventos p a, #tls p a, #svp p a, #patrocinio p a, #librosp p a, #LPM p a  {
+#reto p a, #eventos p a, #tls p a, #svp p a, #patrocinio p a{
 	color: #ffffff;
 	text-decoration: none;
 }
